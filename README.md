@@ -15,10 +15,10 @@ Config File <br />
 -Modify the app/config/config.php file according to your needs based on your local settings. <br />
 
 //Database Configuration <br />
-define('DB_HOST', '<databaseHost>'); <br />
-define('DB_USER', '<databaseUser>'); <br />
-define('DB_PASS', '<databasePassword>'); <br />
-define('DB_NAME', '<databaseName>'); <br />
+define('DB_HOST', 'databaseHost'); <br />
+define('DB_USER', 'databaseUser'); <br />
+define('DB_PASS', 'databasePassword'); <br />
+define('DB_NAME', 'databaseName'); <br />
 Modify it like this
 
 //Database example Configuration <br />
