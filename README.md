@@ -27,7 +27,7 @@ define('DB_USER', 'root'); <br />
 define('DB_PASS', '123456'); <br />
 define('DB_NAME', 'posts');
 
--There are olso defined your site name and your url, you can set them acording to your site name. <br />
+-There are olso defined, YOUR_SITE_NAME and your URL, you can set them acording to your site name. <br />
 
 -Modify che .htaccess file inside the public folder to match the name of your installation folder. <br />
 
