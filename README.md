@@ -29,7 +29,7 @@ define('DB_NAME', 'posts');
 
 -There are olso defined, YOUR_SITE_NAME and your URL, you can set them acording to your site name. <br />
 
--Modify che .htaccess file inside the public folder to match the name of your installation folder. <br />
+-Modify the .htaccess file inside the public folder, "RewriteBase /tooDumb/public", to match the name of your installation folder. <br />
 
 
 -Create a database in PhpMyAdmin matching your database information provided on the config file. <br />
