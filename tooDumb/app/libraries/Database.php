@@ -44,7 +44,7 @@ class Database {
 
     // Bind values
     public function bind($param, $value, $type = null){
-      if(isset($type)){
+      if(is_null($type)){
           switch (true){
               case is_int($value):
                   $type = PDO::PARAM_INT;
@@ -75,7 +75,7 @@ class Database {
     }
 
     // Get single record as object
-    public function singleResult(){
+    public function single(){
         $this->execute();
         return $this->stmt->fetch(PDO::FETCH_OBJ);
     }
